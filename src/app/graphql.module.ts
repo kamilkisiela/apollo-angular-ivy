@@ -1,6 +1,7 @@
+import {InMemoryCache} from '@apollo/client/common';
 import {NgModule} from '@angular/core';
 import {ApolloModule, APOLLO_OPTIONS} from 'apollo-angular';
-import {InMemoryCache} from 'apollo-cache-inmemory';
+
 import {HttpLinkModule, HttpLink} from 'apollo-angular-link-http';
 
 const uri = 'https://graphql-voter-app.herokuapp.com/';

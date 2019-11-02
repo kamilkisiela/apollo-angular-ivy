@@ -1,6 +1,7 @@
+import {gql} from '@apollo/client/common';
 import { Component, Input } from '@angular/core';
 import { Apollo } from 'apollo-angular';
-import gql from 'graphql-tag';
+
 
 @Component({
   selector: 'app-upvoter',

@@ -1,8 +1,9 @@
+import {gql} from '@apollo/client/common';
 import { Component, OnInit } from '@angular/core';
 import { Apollo } from 'apollo-angular';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
-import gql from 'graphql-tag';
+
 
 import { Post, Query } from './types';
 
